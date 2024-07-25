@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar style start */
+.navbar{
+    max-width:1060px;
+    display: flex;
+    justify-content: space-between;
+    margin: 47px auto;
+    padding: 10px;
+}
+.nav-option{
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 35px 35px;
+}
+.nav-option ul{
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-option ul li a{
+    text-decoration: none;
+}
+/* navbar style end */
+
+.get-body{
+    max-width: 1090px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.get-body-img{
+    position: relative;
+}
+.video{
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.425);
+    padding: 20px 30px ;
+    border-radius: 10px;
+    top: 450px;
+    left: 20px;
+}
+.workout{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    background-color: rgba(0, 255, 255, 0.425);
+    padding: 20px 30px ;
+    border-radius: 10px;
+}
+main{
+    max-width:1060px;
+    margin: 97px auto;
+}
+.your-habits{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.your-habits h2{
+    padding: 10px;
+}
+.your-habits p{
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.habits-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.habits-items img{
+    border-radius: 50%;
+}
+.extra-mile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.253);
+    padding: 40px;
+}
+.mile-info{
+    width: 50%;
+}
+.mile-img{
+    width: 50%;
+}
+.mile-img img{
+    width: 100%;
+    border-radius: 25px;
+}
+.trainings-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat((3, 1fr) 900px 200px);
+}
+.trainings-images img{
+    width: 100%;
+}
