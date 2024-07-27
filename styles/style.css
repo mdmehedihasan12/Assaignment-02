@@ -320,10 +320,94 @@ main{
     font-size: 48px;
     font-weight: 900;
     padding: 14px 0px;
+    margin-top: 40px;
 }
 .bmi-calculator-info p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
+}
+/* bmi calculator section end */
+.bmi-chart-calculate{
+    background: rgb(34, 34, 34);
+}
+.bmi-chart-calculate-area{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bmi-chart-calculate-info{
+    width: 90%;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 15px 35px;
+}
+.bmi-chart h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 52px 0px;
+}
+.bmi-chart-calculate-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.height-weight input,
+.age-sex input{
+    width: 252.5px;
+    height: 48px;
+    margin: 4px 2px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.factor input{
+    width: 555px;
+    height: 48px;
+    padding: 5px 20px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.bmi-calculate h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 30px 0px 14px 0px;
+    margin: 20px 2px 0px 0px;
+}
+.bmi-calculate p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 2px ;
+    padding-bottom: 34px;
+}
+.btn3{
+    margin-top: 34px;
+    margin-bottom: 54px;
 }
