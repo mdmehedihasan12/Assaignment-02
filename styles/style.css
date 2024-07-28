@@ -11,15 +11,25 @@
     margin: 0;
     padding: 0;
 }
+/* some same style */
+.navbar-area,
+.get-body,
+.your-habits,
+.extra-mile,
+.training,
+.bmi-calculator,
+.meet-our-team-area,
+.bmi-chart-calculate-area,
+.more-info-area{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
 
 /* navbar style start */
 .header-area{
     background: linear-gradient(180.00deg, rgb(8, 8, 8),rgba(0, 0, 0, 0.932) 100%);
     height: 703px;
-}
-.navbar-area{
-    max-width:1200px;
-    margin: 0 auto;
 }
 .navbar{
     width: 90%;
@@ -61,7 +71,11 @@
     font-size: 18px;
     font-weight: 400;
 }
+
 /* navbar style end */
+
+/* get body style start */
+
 .get-body-info h2{
     color: rgb(255, 255, 255);
     font-size: 78px;
@@ -74,10 +88,7 @@
     font-weight: 400;
     margin-bottom: 23px;
 }
-.get-body{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 .get-body-area{
     width: 90%;
     margin: 0 auto;
@@ -154,18 +165,16 @@
 .video p,
 .workout p{
     color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
     font-size: 13px;
     font-weight: 400;
 }
 main{
     background:#000000f1 ;
-
 }
+
 /* your habits section start */
+
 .your-habits{
-    max-width:1200px;
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -202,10 +211,6 @@ main{
     border-radius: 50%;
 }
 /* extra mile area start */
-.extra-mile{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .extra-mile-area{
     display: flex;
     width: 90%;
@@ -223,14 +228,12 @@ main{
 }
 .mile-info h2{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 48px;
     font-weight: 900;
     padding: 10px;
 }
 .mile-info p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     padding: 10px;
@@ -253,14 +256,12 @@ main{
     border: none;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 18px;
     font-weight: 600;
 }
-.training{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
+/* training section start */
+
 .training-area{
     width: 90%;
     margin: 0 auto;
@@ -296,10 +297,7 @@ main{
 
 }
 /* bmi calculator section start */
-.bmi-calculator{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 .bmi-calculator-area{
     width: 90%;
     margin: 0 auto;
@@ -332,10 +330,6 @@ main{
 .bmi-chart-calculate{
     background: rgb(34, 34, 34);
 }
-.bmi-chart-calculate-area{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .bmi-chart-calculate-info{
     width: 90%;
     margin: 0 auto;
@@ -345,13 +339,11 @@ table{
 }
 th{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
 }
 td{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
 }
@@ -362,14 +354,13 @@ td, th{
 }
 .bmi-chart h2{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 28px;
     font-weight: 900;
     padding: 52px 0px;
 }
 .bmi-chart-calculate-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 40px;
 }
 .height-weight input,
@@ -395,13 +386,12 @@ td, th{
 .height-weight input::placeholder,
 .age-sex input::placeholder{
     color: rgba(255, 255, 255, 0.6);
-    font-family: Inter;
+    font-family: Inter; 
     font-size: 16px;
     font-weight: 400;
 }
 .bmi-calculate h2{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 28px;
     font-weight: 900;
     padding: 30px 0px 14px 0px;
@@ -409,7 +399,6 @@ td, th{
 }
 .bmi-calculate p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     margin: 0px 2px ;
@@ -421,8 +410,6 @@ td, th{
 }
 /* meet our team start */
 .meet-our-team-area{
-    max-width: 1200px;
-    margin: 0 auto;
     padding-bottom: 88px;
 }
 .meet-our-team-info{
@@ -434,7 +421,6 @@ td, th{
 }
 .meet-team-title h2{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 48px;
     font-weight: 900;
     margin-top: 88px;
@@ -443,7 +429,6 @@ td, th{
 }
 .meet-team-title p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 78px;
@@ -471,13 +456,11 @@ td, th{
 }
 .trainer-info h2{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 18px;
     font-weight: 700;
 }
 .trainer-info p{
     color: rgba(247, 246, 246, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
 }
@@ -486,12 +469,6 @@ td, th{
 /* footer section start */
 .more-info{
     background: rgba(26, 26, 26, 0.945);
-    border: 1px solid black;
-}
-.more-info-area{
-    max-width: 1200px;
-    margin: 0 auto;
-    border: 1px solid black;
 }
 .more-info-content{
     width: 90%;
@@ -499,7 +476,45 @@ td, th{
 }
 .more-info-content{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     padding: 66px;
+    gap: 40px;
+}
+.more-info-title h2{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.more-info-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.more-service h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 29px;
+}
+.more-service p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 23px;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyright-content{
+    text-align: center;
+    padding: 36px;
+}
+.copyright-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 300;
 }
