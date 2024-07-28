@@ -40,6 +40,9 @@
     padding: 10px;
     padding-top: 58px;
 }
+.bars{
+    display: none;
+}
 #home{
     padding: 7px 9px;
     border-radius: 46px;
@@ -280,7 +283,6 @@ main{
     margin-bottom: 58px;
 }
 .trainings-images{
-    display: grid;
     margin: 0 auto;
 }
 .col-1{
@@ -314,7 +316,6 @@ main{
 }
 .bmi-calculator-info h2{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 48px;
     font-weight: 900;
     padding: 14px 0px;
@@ -322,7 +323,6 @@ main{
 }
 .bmi-calculator-info p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
 }
@@ -379,6 +379,17 @@ td, th{
     padding: 5px 20px;
     margin: 4px 2px;
     border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.height{
+    height: 48px;
+    padding: 40px 990px  40px 40px;
+    margin: 4px 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
 }

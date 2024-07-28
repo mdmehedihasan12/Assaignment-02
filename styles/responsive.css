@@ -1,5 +1,252 @@
 /* Mobile design */
 @media screen and (max-width:576px) {
-    
+    .navbar-area,
+    .get-body,
+    .your-habits,
+    .extra-mile,
+    .training,
+    .bmi-calculator,
+    .meet-our-team-area,
+    .bmi-chart-calculate-area,
+    .more-info-area{
+        max-width:100%;
+        margin: 0 ;
+    }
+    .nav-option{
+        display: none;   
+    }
+    .bars{
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+    .bars img{
+        
+        color: white;
+    }
+    .header-area{
+        background: linear-gradient(180.00deg, rgb(8, 8, 8),rgba(0, 0, 0, 0.932) 100%);
+        height: 100%;
+    }
+    /* get body style start */
+
+    .get-body-info h2{
+        font-size: 36px;
+    }
+    .get-body-info p{
+        width: 274px;
+        font-size: 15px;
+    }
+    .get-body-area{
+        flex-direction: column;
+        gap: 40px;
+        align-items: start;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .btn{
+        width: 169px;
+    }
+    .btn-area{
+        width: 100%;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+    }
+    #btn{
+        width: 169px;
+    }
+    .workout{
+        width: 145.91px;
+        height: 74.09px;
+        top: 56px;
+        left: 191px;
+    }
+    .video{
+        width: 155.74px;
+        height: 72.58px;
+        top: 267px;
+        right: 174px; 
+    }
+    .video h2,
+    .workout h2{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .video p,
+    .workout p{
+        font-size: 9px;
+    }
+    .get-body-img{
+        margin-left: 40px;
+    }
+    /* your habits section start */
+    .habits-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .your-habits{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .your-habits h2{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+        padding: 10px;
+    }
+    .your-habits p{
+        width: 310px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 58px;
+        line-height: 24px;
+    }
+    .habits-items p{
+        margin-bottom: 30px;
+    }
+
+    /* extra mile area start */
+    .extra-mile-area{
+        flex-direction: column;
+    }
+    .mile-info{
+        padding: 10px 25px;
+        width: 90%;
+    }
+    .mile-info h2{
+        font-size: 32px;
+    }
+    .btn2{
+        margin-left: 45px;
+        width: 287px;
+    }
+    .mile-img img{
+        width: 100%;
+    }
+    .mile-img{
+        width: 90%;
+    }
+    /* training section start */
+
+    .training-area{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .training h2{
+        width: 353px;
+        font-size: 32px;
+        margin-top: 66px;
+    }
+    .training p{
+        width: 331px;
+        margin-bottom: 37px;
+    }
+    .trainings-images img{
+        width: 100%;
+        height: 139px;
+    }
+    .ex3,
+    .ex6{
+        display: none;
+    }
+    .col-1,
+    .col-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* bmi calculator section start */
+
+    .bmi-calculator-area{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-calculator-info{
+        padding: 21px 0px;
+    }
+    .bmi-calculator-info h2{
+        width: 236px;
+        font-size: 32px;
+
+    }
+    .bmi-calculator-info p{
+        width: 353px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .bmi-chart-calculate-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .bmi-chart h2,
+    .bmi-calculate h2{
+        font-size: 16px;
+        font-weight: 900;
+        padding: 20px 0px;
+    }
+    .bmi-calculate p{
+        width: 336px;
+        line-height: 24px;
+    }
+    .factor input{
+        width: 329px;
+    }
+    .height-weight input,
+    .age-sex input{
+        width: 140px;
+        height: 48px;
+        margin: 4px 2px;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .btn3{
+        width: 224px;
+        margin-top: 34px;
+        margin-bottom: 54px;
+    }
+    .meet-team-title h2{
+        font-size: 32px;
+        margin-top: 55px;
+    }
+    .meet-team-title p{
+        width: 309px;
+        margin: 0 auto;
+        line-height: 24px;
+        margin-bottom: 37px;
+    }
+    .meet-team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet-team-img img{
+        width: 100%;
+        margin: 0 auto;
+        height: 272px;
+        border-radius: 18px;
+    }
+    .more-info-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 10px;
+    }
+    .more-info-title p{
+        width: 317px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
 }
 /* tablet design */
