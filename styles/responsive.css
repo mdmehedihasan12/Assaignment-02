@@ -49,7 +49,6 @@
     }
     .btn-area{
         width: 100%;
-        margin-left: 30px;
         display: flex;
         justify-content: center;
         gap: 10px;
@@ -79,9 +78,6 @@
     .video p,
     .workout p{
         font-size: 9px;
-    }
-    .get-body-img{
-        margin-left: 40px;
     }
     /* your habits section start */
     .habits-items{
@@ -166,6 +162,16 @@
     .bmi-calculator-area{
         width: 90%;
         margin: 0 auto;
+    }
+    .bmi-calculator-info{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        padding: 88px 0px;
     }
     .bmi-calculator-info{
         padding: 21px 0px;
