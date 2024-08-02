@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/responsive.css">
     <script src="https://kit.fontawesome.com/525fd6b0af.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/525fd6b0af.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/miama-nueva" rel="stylesheet">
 </head>
 <body class="inter-font">
     <!-- header area start -->
@@ -33,7 +34,7 @@
         <section class="get-body">
             <div class="get-body-area">
                 <div class="get-body-info">
-                    <h2>Get Body in <br> <i>shape</i> & stay <br>
+                    <h2>Get Body in <br> <i><span class="shape">shape</span></i> & stay <br>
                     healthy</h2>
                     <p>A huge selection fot health and fitness content,healthy recipes <br>and transformation stories to help you get fit and stay fit!</p>
                     <div class="btn-area">
@@ -45,7 +46,9 @@
                     <img src="images/Images 2.png" alt="">
                     <div class="video"> 
                         <div class="red-circle">
-                            
+                            <div class="video-btn">
+                                
+                            </div>
                         </div>
                         <div class="videos">
                             <h2>350+</h2>
@@ -109,24 +112,24 @@
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless fo income or <br>access to a gym.</p>
                 <div class="trainings-images">
                     <div class="col-1">
-                        <div class="ex1">
+                        <div class="ex1 ex">
                             <img src="images/exercise1.jpg" alt="">
                         </div>
-                        <div class="ex2">
+                        <div class="ex2 ex">
                             <img src="images/exercise2.png" alt="">
                         </div>
-                        <div class="ex3">
+                        <div class="ex3 ex">
                             <img src="images/exercise3.png" alt="">
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="ex4">
+                        <div class="ex4 ex">
                             <img src="images/exercise4.png" alt="">
                         </div>
-                        <div class="ex5">
+                        <div class="ex5 ex">
                             <img src="images/exercise5.jpg" alt="">
                         </div>
-                        <div class="ex6">
+                        <div class="ex6 ex">
                             <img src="images/exercise6.jpg" alt="">
                         </div>
                     </div>
@@ -177,15 +180,28 @@
                         <h2>Calculate your BMI</h2>
                         <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br>income or access to a gym. </p>
                         <div class="height-weight">
-                            <input type="text" name="" id="" placeholder="Height/cm">
-                            <input type="text" placeholder="Weight/kg">
+                            <div>
+                                <input type="text" name="" id="" placeholder="Height/cm">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Weight/kg">
+                            </div>
                         </div>
                         <div class="age-sex">
-                            <input type="text" name="" id="" placeholder="Age">
-                            <input type="text" name="sex" id="sex" placeholder="Sex">
+                            <div>
+                                <input type="text" name="" id="" placeholder="Age">
+                            </div>
+                            <div>
+                                <select name="sex" id="sex">
+                                    <option value="sex">sex</option>
+                                </select>
+                            </div>
+                            
                         </div>
                         <div class="factor">
-                            <input type="text" name="" id="" placeholder="Select an activity factor">
+                            <select name="" id="">
+                                <option value="">Select an activity factor</option>
+                            </select>
                         </div>
                         <div class="btn3">
                             <button class="btn" id="btn3">Calculate</button>

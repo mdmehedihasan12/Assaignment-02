@@ -25,7 +25,6 @@
         color: white;
     }
     .header-area{
-        background: linear-gradient(180.00deg, rgb(8, 8, 8),rgba(0, 0, 0, 0.932) 100%);
         height: 100%;
     }
     /* get body style start */
@@ -56,6 +55,25 @@
     }
     #btn{
         width: 169px;
+    }
+    .video-btn{
+        position: absolute;
+        top: 50%;
+        left: 54%;
+        transform: translate(-50% , -50%);
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 20px solid #fffefe;
+        border-bottom: 10px solid transparent;
+    }
+    .red-circle{
+        position: relative;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        background: rgb(230, 83, 60);
+        border-radius: 50%;
     }
     .workout{
         width: 145.91px;
@@ -183,9 +201,6 @@
     }
     .bmi-calculator-info p{
         width: 343px;
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 14px;
-        font-weight: 400;
         line-height: 24px;
     }
     .bmi-chart-calculate-info{
@@ -204,12 +219,15 @@
         width: 336px;
         line-height: 24px;
     }
-    .factor input{
-        width: 84%;
+    select{
+        width: 169px;
+    }
+    .factor select{
+        width: 99%;
     }
     .height-weight input,
     .age-sex input{
-        width: 35%;
+        width: 74%;
         height: 48px;
         margin: 4px 2px;
         padding: 5px 20px;
@@ -235,11 +253,13 @@
     .meet-team-img{
         grid-template-columns: repeat(1, 1fr);
     }
+
     .meet-team-img img{
         width: 100%;
         margin: 0 auto;
         height: 272px;
         border-radius: 18px;
+        opacity: 0.7;
     }
     .more-info-content{
         display: flex;

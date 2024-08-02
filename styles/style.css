@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama-nueva');
 
 .inter-font{
     font-family: "Inter", sans-serif;
@@ -16,7 +17,6 @@
 .get-body,
 .your-habits,
 .extra-mile,
-.training,
 .bmi-calculator,
 .meet-our-team-area,
 .bmi-chart-calculate-area,
@@ -100,6 +100,9 @@
     align-items: center;
     padding: 10px;
 }
+.shape{
+    font-family: 'Miama Nueva', sans-serif;
+}
 .btn{
     width: 224px;
     height: 54px;
@@ -137,9 +140,9 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 20px 30px ;
-    top: 412px;
-    right: 253px;
+    top: 70%;
+    right: 60%;
+    padding: 20px 10px ;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;   
@@ -264,7 +267,10 @@ main{
 }
 
 /* training section start */
-
+.training{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .training-area{
     width: 90%;
     margin: 0 auto;
@@ -286,18 +292,24 @@ main{
     margin: 0 auto;
 }
 .col-1{
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
 .col-2{
+    width: 90%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
 }
 .trainings-images img{
     width: 100%;
     height: 256px;
-
 }
+.ex1 img{
+    filter: contrast(red);
+}
+
+
 /* bmi calculator section start */
 
 .bmi-calculator-area{
@@ -365,13 +377,38 @@ td, th{
 }
 .height-weight input,
 .age-sex input{
-    width: 252.5px;
+    width: 250.5px;
     height: 48px;
     margin: 4px 2px;
     padding: 5px 20px;
     border: none;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
+}
+.age-sex, 
+.height-weight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+select{
+    width: 290px;
+    height: 55px;
+    margin: 4px 2px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.factor select{
+    width: 591px;
+    margin: 4px 2px;
 }
 .factor input{
     width: 555px;
@@ -465,6 +502,7 @@ td, th{
     font-size: 14px;
     font-weight: 400;
 }
+
 /* meet our team section end */
 
 /* footer section start */
