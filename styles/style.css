@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama-nueva');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
 
 .inter-font{
     font-family: "Inter", sans-serif;
@@ -101,7 +102,7 @@
     padding: 10px;
 }
 .shape{
-    font-family: 'Miama Nueva', sans-serif;
+    font-family: "Playwrite NZ", cursive;
 }
 .btn{
     width: 224px;
@@ -483,6 +484,7 @@ select{
     width: 100%;
     height: 272px;
     border-radius: 18px;
+    opacity: 0.7;
 }
 .trainer-img{
     position: relative;
@@ -502,7 +504,6 @@ select{
     font-size: 14px;
     font-weight: 400;
 }
-
 /* meet our team section end */
 
 /* footer section start */
@@ -557,3 +558,4 @@ hr{
     font-size: 20px;
     font-weight: 300;
 }
+/* footer section end */
