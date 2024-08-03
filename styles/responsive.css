@@ -1,5 +1,5 @@
 /* Mobile design */
-@media screen and (max-width:576px) {
+@media screen and (min-width:320px) and (max-width:576px) {
     .navbar-area,
     .get-body,
     .your-habits,
@@ -8,7 +8,7 @@
     .bmi-calculator,
     .meet-our-team-area,
     .bmi-chart-calculate-area,
-    .more-info-area{
+    .more-info{
         max-width:100%;
         margin: 0 ;
     }
@@ -21,22 +21,26 @@
         font-size: 25px;
     }
     .bars img{
-        
         color: white;
     }
     .header-area{
         height: 100%;
     }
     /* get body style start */
-
+    .get-body-info{
+        width: 90%;
+    }
     .get-body-info h2{
+        width: 229px;
         font-size: 36px;
     }
     .get-body-info p{
         width: 274px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .get-body-area{
+        width: 87%;
+        margin: 0 auto;
         flex-direction: column;
         gap: 40px;
         align-items: start;
@@ -44,17 +48,20 @@
         margin-left: 10px;
     }
     .btn{
-        width: 150px;
+        width: 200px;
+        font-size: 15px;
+        margin-left: 0px;
     }
     .btn-area{
-        width: 95%;
+        width: 110%;
         display: flex;
         justify-content: center;
         gap: 5px;
         align-items: center;
     }
     #btn{
-        width: 150px;
+        width: 200px;
+        font-size: 15px;
     }
     .get-body-img img{
         width: 100%;
@@ -79,16 +86,16 @@
         border-radius: 50%;
     }
     .workout{
-        width: 145.91px;
+        width: 123.91px;
         height: 74.09px;
-        top: 56px;
-        left: 191px;
+        top: 38px;
+        left: 151px;
     }
     .video{
         width: 155.74px;
         height: 72.58px;
-        top: 267px;
-        right: 174px; 
+        top: 195px;
+        right: 125px; 
     }
     .video h2,
     .workout h2{
@@ -111,13 +118,15 @@
         margin-bottom: 40px;
     }
     .your-habits h2{
+        width: 90%;
+        margin: 0 auto;
         color: rgb(255, 255, 255);
-        font-size: 32px;
-        font-weight: 900;
+        font-size: 25px;
+        font-weight: 700;
         padding: 10px;
     }
     .your-habits p{
-        width: 310px;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
         padding: 10px;
@@ -130,6 +139,7 @@
 
     /* extra mile area start */
     .extra-mile-area{
+        width: 90%;
         flex-direction: column;
     }
     .mile-info{
@@ -141,7 +151,7 @@
     }
     .btn2{
         margin-left: 4px;
-        width: 287px;
+        width: 90%;
     }
     .mile-img img{
         width: 100%;
@@ -154,15 +164,19 @@
     .training-area{
         width: 90%;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .training h2{
-        width: 353px;
-        font-size: 32px;
-        margin-top: 66px;
-        margin-right: 20px;
+        width: 90%;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-right: 0;
     }
     .training p{
-        width: 331px;
+        width: 80%;
         margin-bottom: 37px;
     }
     .trainings-images img{
@@ -204,7 +218,7 @@
 
     }
     .bmi-calculator-info p{
-        width: 343px;
+        width: 90%;
         line-height: 24px;
     }
     .bmi-chart-calculate-info{
@@ -220,20 +234,21 @@
         padding: 20px 0px;
     }
     .bmi-calculate p{
-        width: 336px;
+        width: 90%;
         line-height: 24px;
     }
     select{
-        width: 169px;
+        width: 143px;
+        margin: 0;
     }
     .factor select{
-        width: 99%;
+        width: 290px;
     }
     .height-weight input,
     .age-sex input{
-        width: 74%;
+        width: 102px;
         height: 48px;
-        margin: 4px 2px;
+        margin:4px 2px;
         padding: 5px 20px;
         border: none;
         border-radius: 8px;
@@ -257,7 +272,10 @@
     .meet-team-img{
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .more-info-area{
+        width: 90%;
+        margin: 0 ;
+    }
     .meet-team-img img{
         width: 100%;
         margin: 0 auto;
@@ -279,6 +297,11 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
+    }
+    .copyright-content p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 300;
     }
 }
 /* tablet design */
