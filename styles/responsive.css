@@ -39,7 +39,7 @@
         font-size: 14px;
     }
     .get-body-area{
-        width: 87%;
+        width: 90%;
         margin: 0 auto;
         flex-direction: column;
         gap: 40px;
@@ -62,6 +62,10 @@
     #btn{
         width: 200px;
         font-size: 15px;
+    }
+    .get-body-img{
+        width: 292px;
+        margin: 0 auto;
     }
     .get-body-img img{
         width: 100%;
@@ -89,13 +93,13 @@
         width: 123.91px;
         height: 74.09px;
         top: 38px;
-        left: 151px;
+        left: 159px;
     }
     .video{
         width: 155.74px;
         height: 72.58px;
-        top: 195px;
-        right: 125px; 
+        top: 209px;
+        right: 132px; 
     }
     .video h2,
     .workout h2{
@@ -239,10 +243,14 @@
     }
     select{
         width: 143px;
-        margin: 0;
+        margin: 0 auto;
     }
     .factor select{
         width: 290px;
+        margin: 0 auto;
+    }
+    .factor{
+        text-align: center;
     }
     .height-weight input,
     .age-sex input{
@@ -256,6 +264,7 @@
     }
     .btn3{
         width: 224px;
+        margin: 0 auto;
         margin-top: 34px;
         margin-bottom: 54px;
     }
