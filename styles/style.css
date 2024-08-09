@@ -358,6 +358,7 @@ main{
     margin: 0 auto;
 }
 table{
+    width: 50%;
     border-collapse: collapse;
 }
 th{

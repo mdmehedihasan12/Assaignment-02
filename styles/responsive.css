@@ -47,6 +47,9 @@
         justify-content: center;
         margin-left: 10px;
     }
+    .shape{
+        font-size: 50px;
+    }
     .btn{
         width: 200px;
         font-size: 15px;
@@ -246,8 +249,8 @@
         margin: 0 auto;
     }
     .factor select{
-        width: 290px;
-        margin: 0 auto;
+        width: 295px;
+        margin: 5 auto;
     }
     .factor{
         text-align: center;
@@ -262,9 +265,17 @@
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
     }
+    .age-sex, 
+    .height-weight,
+    select{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 5px;
+    }
     .btn3{
         width: 224px;
-        margin: 0 auto;
+        margin-left: 40px;
         margin-top: 34px;
         margin-bottom: 54px;
     }
@@ -288,7 +299,7 @@
     .meet-team-img img{
         width: 100%;
         margin: 0 auto;
-        height: 212px;
+        height: 242px;
         border-radius: 18px;
         opacity: 0.7;
     }
@@ -306,6 +317,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
+        
     }
     .copyright-content p{
         color: rgba(255, 255, 255, 0.5);
@@ -314,3 +326,4 @@
     }
 }
 /* tablet design */
+
