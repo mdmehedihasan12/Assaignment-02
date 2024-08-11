@@ -358,7 +358,6 @@ main{
     margin: 0 auto;
 }
 table{
-    width: 50%;
     border-collapse: collapse;
 }
 th{
@@ -385,7 +384,6 @@ td, th{
 .bmi-chart-calculate-info{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
 }
 .height-weight input,
 .age-sex input{
