@@ -83,19 +83,6 @@
 
 /* get body style start */
 
-.get-body-info h2{
-    color: rgb(255, 255, 255);
-    font-size: 78px;
-    font-weight: 900;
-    margin-bottom: 24px;
-}
-.get-body-info p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 23px;
-}
-
 .get-body-area{
     width: 90%;
     margin: 0 auto;
@@ -104,6 +91,22 @@
     align-items: center;
     padding: 10px;
 }
+.get-body-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.get-body-info p{
+    width: 485px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 23px;
+    line-height: 24px;
+}
+
+
 .shape{
     font-size: 7rem;
     font-family: "Dancing Script", cursive;
@@ -156,7 +159,7 @@
 }
 .workout{
     position: absolute;
-    width: 190px;
+    width: 168px;
     height: 98px;
     top: 132px;
     left: 229px;
@@ -526,8 +529,8 @@ select{
 .more-info-content{
     display: flex;
     justify-content: space-between;
-    padding: 66px;
-    gap: 40px;
+    padding: 40px;
+    gap: 20px;
 }
 .more-info-title h2{
     color: rgb(230, 83, 60);
