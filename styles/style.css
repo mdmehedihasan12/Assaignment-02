@@ -105,8 +105,6 @@
     margin-bottom: 23px;
     line-height: 24px;
 }
-
-
 .shape{
     font-size: 7rem;
     font-family: "Dancing Script", cursive;
@@ -209,12 +207,23 @@ main{
     font-weight: 600;
     padding: 7px;
 }
-.your-habits p{
+#your-habits-info{
+    margin: 0 auto;
+    width: 591px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
-    font-weight: 400;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+.habits-items p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 300;
     padding: 10px;
     margin-bottom: 80px;
+    line-height: 24px;
 }
 .habits-items{
     display: grid;
@@ -247,11 +256,13 @@ main{
     padding: 10px;
 }
 .mile-info p{
+    width: 394px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     padding: 10px;
     margin-bottom: 34px;
+    line-height: 24px;
 }
 .mile-img{
     display: flex;
@@ -291,12 +302,14 @@ main{
     margin-left: 50px;
 }
 .training p{
+    width: 602px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin-top: 14px;
     margin-bottom: 58px;
     margin-left: 54px;
+    line-height: 24px;
 }
 .trainings-images{
     width: 100%;
@@ -348,6 +361,7 @@ main{
     margin-top: 40px;
 }
 .bmi-calculator-info p{
+    width: 604px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
@@ -449,11 +463,13 @@ select{
     margin: 20px 2px 0px 0px;
 }
 .bmi-calculate p{
+    width: 532px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin: 0px 2px ;
     padding-bottom: 34px;
+    line-height: 24px;
 }
 .btn3{
     margin-top: 34px;
@@ -479,9 +495,12 @@ select{
 
 }
 .meet-team-title p{
+    width: 604px;
+    margin: 0 auto;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
     margin-bottom: 78px;
 }
 .meet-team-img{
@@ -540,9 +559,11 @@ select{
     margin-top: -10px;
 }
 .more-info-title p{
+    width: 398px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
 }
 .more-service h2{
     color: rgb(255, 255, 255);

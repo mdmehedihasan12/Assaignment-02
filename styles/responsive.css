@@ -35,7 +35,7 @@
         font-size: 36px;
     }
     .get-body-info p{
-        width: 274px;
+        width: 225px;
         font-size: 14px;
     }
     .get-body-area{
@@ -120,6 +120,9 @@
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
+    .your-habit-area{
+        text-align: center;
+    }
     .your-habits{
         text-align: center;
         margin-bottom: 40px;
@@ -131,6 +134,12 @@
         font-size: 25px;
         font-weight: 700;
         padding: 10px;
+    }
+    #your-habits-info{
+        width: 251px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12px;
     }
     .your-habits p{
         width: 90%;
@@ -156,9 +165,14 @@
     .mile-info h2{
         font-size: 32px;
     }
+    .mile-info p{
+        width: 229px;
+        font-size: 12px;
+    }
     .btn2{
-        margin-left: 4px;
         width: 90%;
+        height: 45px;
+        margin-left: 8px;
     }
     .mile-img img{
         width: 100%;
@@ -180,10 +194,12 @@
         width: 90%;
         font-size: 25px;
         margin-top: 30px;
-        margin-right: 0;
+        margin-left: 0;
     }
     .training p{
-        width: 80%;
+        width: 273px;
+        font-size: 12px;
+        margin-left: 14px;
         margin-bottom: 37px;
     }
     .trainings-images img{
@@ -225,7 +241,8 @@
 
     }
     .bmi-calculator-info p{
-        width: 90%;
+        width: 273px;
+        font-size: 12px;
         line-height: 24px;
     }
     .bmi-chart-calculate-info{
@@ -241,24 +258,26 @@
         padding: 20px 0px;
     }
     .bmi-calculate p{
-        width: 90%;
+        width: 273px;
+        font-size: 12px;
         line-height: 24px;
     }
     select{
         width: 143px;
+        height: 53px;
         margin: 0 auto;
     }
     .factor select{
         width: 290px;
-        margin: 5 auto;
+        height: 53px;
     }
     .factor{
-        text-align: center;
+        text-align: left;
     }
     .height-weight input,
     .age-sex input{
-        width: 102px;
-        height: 48px;
+        width: 100px;
+        height: 41px;
         margin:4px 2px;
         padding: 5px 20px;
         border: none;
@@ -266,8 +285,7 @@
         background: rgba(255, 255, 255, 0.1);
     }
     .age-sex, 
-    .height-weight,
-    select{
+    .height-weight{
         display: flex;
         justify-content: left;
         align-items: center;
@@ -284,20 +302,23 @@
         margin-top: 55px;
     }
     .meet-team-title p{
-        width: 280px;
+        width: 273px;
         margin: 0 auto;
+        font-size: 12px;
         line-height: 24px;
         margin-bottom: 37px;
     }
     .meet-team-img{
         grid-template-columns: repeat(1, 1fr);
+        max-width: 275px;
+        margin: 0 auto;
     }
     .more-info-area{
         width: 90%;
         margin: 0 ;
     }
     .meet-team-img img{
-        width: 100%;
+        max-width: 270px;
         margin: 0 auto;
         height: 242px;
         border-radius: 18px;
@@ -313,8 +334,8 @@
         gap: 10px;
     }
     .more-info-title p{
-        width: 290px;
-        font-size: 14px;
+        width: 259px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 24px;
         
